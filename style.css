@@ -42,11 +42,11 @@ header {
     left: 10%;
 }
 .content-ttl1 {
-    font-size: 5rem;
+    font-size: 5vw;
     font-family: 'Preahvihear', sans-serif;
     width: 70%;
     color: #c40283;
-    line-height: 130px;
+    line-height: 7vh;
 }
     
 .content-ttl-groen {
@@ -55,10 +55,10 @@ header {
 
 .content-subttl {
     width: 90%;
-    font-size: 30px;
+    font-size: 2vw;
     color: #c40283;
     font-weight: bold;
-    padding: 70px 0 10px 0;
+    padding: 5vh 0 1vh 0;
 }
 
 span {
@@ -68,8 +68,8 @@ span {
 .content-enttl {
     width:90%;
     color: #C0C0C0;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 2vw;
+    line-height: 2vh;
 }
 
 .news {
@@ -104,7 +104,7 @@ span {
     background-color: #c40283;
     border-radius: 30px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 17px;
 }
 
 .news-lists-block {
@@ -117,13 +117,13 @@ span {
 time {
     margin: 0 5% 0 0;
     color:rgb(139, 139, 139);
-    font-size: 30px;
+    font-size: 17px;
 }
 .news-lists-text {
     display: inline-block;
     margin: 0 0 0 10px;
     color:rgb(139, 139, 139);
-    font-size: 30px;
+    font-size: 17px;
     margin: 0 0 0 5%;
 }
 
@@ -385,12 +385,12 @@ time {
 
 .card-date {
     position: static;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .card-hashtag {
     position: static;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .blog-allpage {
@@ -508,7 +508,7 @@ time {
     box-shadow: 0 10px 0 #8f0260;
     position: relative;
     top: 0;
-    left: 42%;
+    left: 40vw;
 }
 
 .infor-btn::before {
@@ -529,7 +529,7 @@ small {
     display: block;
     background-color: #e7e6e6;
     color:rgb(110, 110, 110);
-    padding: 20px 0 20px 580px;
+    padding: 20px 0 20px 40vw;
 }
 @media screen and (max-width: 768px) {
 header {
@@ -541,7 +541,6 @@ header {
     width: 10%;
     height: 10%;
     margin: 0 2%;
-    
 }
 
 .header-nav-list {
@@ -926,19 +925,19 @@ time {
 }
 
 .blog-allpage {
-    width: 30%;
-    font-size: 15px;
-    margin: 100px 0 50px;
-    transform: translate( 270px , -50px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .blog-allpage-link {
-    width: 100%;
+    margin: 5% 0;
+    padding: 20px 60px;
     color:#c40283;
     text-decoration: none;
-    padding: 20px 0;
-    margin: 0;
-    display: inline-block;
+    border-radius: 30px;
+    border: solid 2px #c40283;
+    background-color: white;
 }
 
 
@@ -1466,13 +1465,22 @@ time {
 }
 
 .blog-allpage {
-    transform: translate( 165px , -20px );
-    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .blog-allpage-link {
     color:#c40283;
     text-decoration: none;
+
+    margin: 5% 0;
+    padding: 20px 30px;
+    color:#c40283;
+    text-decoration: none;
+    border-radius: 30px;
+    border: solid 2px #c40283;
+    background-color: white;
 }
 
 
