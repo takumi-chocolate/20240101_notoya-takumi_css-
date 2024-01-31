@@ -35,7 +35,7 @@ header {
 }
 
 .content-ttl {
-    width: 80%;
+    width: 85%;
     position: absolute;
     top: 4vw;
     left: 14vw;
@@ -999,7 +999,7 @@ time {
     color: #5e5e5e;
     text-align: left;
     padding: 0 10px;
-    line-height: 50px;
+    line-height: 25px;
     border: solid 1px rgb(185, 184, 184);
     font-size: 2vw;
 }
@@ -1553,7 +1553,7 @@ header {
         color: #5e5e5e;
         text-align: left;
         padding: 0 10px;
-        line-height: 50px;
+        line-height: 20px;
         border: solid 1px rgb(185, 184, 184);
         font-size: 2vw;
     }
